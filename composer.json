@@ -1,0 +1,20 @@
+{
+  "name": "snowair/think-whoops",
+  "description": "ThinkPHP3.2 集成Whoops",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "朱亚杰",
+      "email": "xcoolcc@gmail.com"
+    }
+  ],
+  "require": {
+    "filp/whoops": "^1.1"
+  },
+  "autoload": {
+    "files": [
+      "whoops.php"
+    ]
+  }
+}
