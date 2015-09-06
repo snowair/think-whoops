@@ -2,6 +2,10 @@
 
 if (!function_exists( 'whoops' )) {
     function whoops(){
+        static $whoops;
+        if ($whoops) {
+            return;
+        }
         if (defined('APP_DEBUG') && APP_DEBUG==false) {
             if (defined('WHOOPS') && WHOOPS==true) {
             }else{
