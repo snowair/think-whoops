@@ -10,6 +10,15 @@ ThinkPHP 集成 [Whoops](https://github.com/filp/whoops)
 composer require snowair/think-whoops:dev-master
 ```
 
+* 在 Common/Conf/tags.php 增加一个行为,如果之前已经添加过,就不用再添加了:
+    ```
+    return array(
+         'app_init'=>array(
+            'Snowair\Think\Behavior\HookAgent'
+         ),
+    )
+    ```
+
 就是这么简单, whoops立即生效了!
 
 
