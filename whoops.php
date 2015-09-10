@@ -24,6 +24,9 @@ class Whoops{
 
     public function register()
     {
+        if (C( 'phpunit' )) {
+            return;
+        }
         $whoops = new \Whoops\Run;
         $pretty = new \Whoops\Handler\PrettyPageHandler;
         $whoops->pushHandler($pretty);
