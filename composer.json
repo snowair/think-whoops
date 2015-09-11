@@ -11,7 +11,7 @@
   ],
   "require": {
     "filp/whoops": "^1.1",
-    "snowair/think-hookagent": ">=0.1"
+    "snowair/think-hookagent": ">=0.4"
   },
   "autoload": {
     "files": [
