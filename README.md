@@ -6,6 +6,8 @@ ThinkPHP 集成 [Whoops](https://github.com/filp/whoops)
 安装使用
 ------
 
+[composer中文文档](http://www.kancloud.cn/thinkphp/composer)
+
 ```
 composer require snowair/think-whoops:dev-master
 ```
